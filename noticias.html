@@ -7,8 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet"> 
-    <link rel="stylesheet" href="../assets/css/reset.css">
-    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="index.js" defer></script>
     <title>Estudo Crypto</title>
 </head> 
@@ -19,8 +19,8 @@
         <nav class="cabecalho-nav">
             <ul>
                 <li><a href="index.html" class="cabecalho-inicio">Início</a></li>
-                <li><a href="sub-pg/noticias.html" class="cabecalho-noticia">Notícias</a></li>
-                <li><a href="sub-pg/conteudo.html" class="cabecalho-conteudo cabecalho-ligado">Conteúdos</a></li>
+                <li><a href="noticias.html" class="cabecalho-noticia cabecalho-ligado">Notícias</a></li>
+                <li><a href="conteudo.html" class="cabecalho-conteudo">Conteúdos</a></li>
             </ul>
         </nav>
         <img src="assets/imagens/logo-sem-fundo.png" alt="Logotipo" class="cabecalho-logo">
@@ -30,14 +30,21 @@
     <nav class="menu-lateral">
         <img src="assets/imagens/logo-sem-fundo.png" alt="Logotipo" class="menu-lateral_logo">
         <a href="index.html" class="menu-lateral__link menu-lateral__link--inicio">Início</a>
-        <a href="noticias.html" class="menu-lateral__link menu-lateral__link--noticia">Notícias</a>
-        <a href="conteudo.html" class="menu-lateral__link menu-lateral__link--conteudo menu-lateral__link--ativo">Conteúdos</a>
+        <a href="noticias.html" class="menu-lateral__link menu-lateral__link--noticia menu-lateral__link--ativo">Notícias</a>
+        <a href="conteudo.html" class="menu-lateral__link menu-lateral__link--conteudo">Conteúdos</a>
     </nav>
-    
+
     <main class="principal">
-       
-        <section class="conteudo">
-            <h2 class="titulo-pagina">Conteúdos</h2>
+
+        <section class="noticia">
+            <h2 class="titulo-pagina">Notícias</h2>
+            <article class="cartao">
+                <img src="assets/imagens/bitcoin.jpg" alt="destaque" class="imagem-noticia">
+                <div class="cartao-noticia-conteudo">
+                    <h3 class="cartao-titulo">Titulo</h3>
+                    <p class="cartao-manchete">conteudo</p>
+                </div>
+            </article>
             <article class="cartao">
                 <img src="assets/imagens/bitcoin.jpg" alt="destaque" class="imagem-noticia">
                 <div class="cartao-noticia-conteudo">
@@ -46,7 +53,6 @@
                 </div>
             </article>
         </section>
-
 
     </main>
     <footer>
