@@ -324,7 +324,8 @@ body{
     align-items: center;
 }
 
-.referencias .site-referencia{
+.site-referencia{
+    margin-top: 4rem;
     color: #38B6FE;
     margin-bottom: 1rem;
 }
@@ -384,7 +385,7 @@ footer{
         height: 500px;
     }
 
-    .referencias .site-referencia:hover{
+    .site-referencia:hover{
         text-decoration: underline;
     }
 
