@@ -56,7 +56,7 @@ body{
 
     .cabecalho-nav{
         display: flex;
-        width: 17%;
+        width: 450px;
     }
 
     .cabecalho-nav ul li{
