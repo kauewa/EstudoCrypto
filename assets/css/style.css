@@ -324,7 +324,7 @@ body{
     align-items: center;
 }
 
-.site-referencia{
+.site-ref{
     margin-top: 4rem;
     color: #38B6FE;
     margin-bottom: 1rem;
@@ -377,7 +377,7 @@ footer{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 50%;
+        width: 40%;
     }
 
     .img-pagina{
@@ -385,7 +385,7 @@ footer{
         height: 500px;
     }
 
-    .site-referencia:hover{
+    .site-ref:hover{
         text-decoration: underline;
     }
 
