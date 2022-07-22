@@ -211,7 +211,7 @@ body{
 }
 
 .cartao-titulo{
-    font-size: 1.5rem;
+    font-size: 0.9rem;
     color: #f9e305;
 }
 
@@ -219,6 +219,10 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
+}
+
+.dados-noticia h2{
+    font-size: 0.9rem;
 }
 
 @media screen and (min-width: 1440px){
@@ -247,6 +251,11 @@ body{
     .cartao:hover{
         text-decoration: underline;
         box-shadow: 5px 5px 10px #b49d4a, -5px -5px 10px #b49d4a;
+    }
+
+    .cartao-titulo{
+        font-size: 1.5rem;
+        color: #f9e305;
     }
 
     .atalho{
